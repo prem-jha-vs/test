@@ -27,18 +27,7 @@ const Login = () => {
       className="flex flex-col items-center"
     >
       <form onSubmit={handleSubmit} className="w-full max-w-md">
-        <div className="mb-4">
-          <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
-            Email Address
-          </label>
-          <input
-            type="text"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          />
-        </div>
+        
         <div className="mb-6">
           <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
             Password
